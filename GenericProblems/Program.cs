@@ -9,6 +9,8 @@
             int maximum = Generic.CheckMaximum(15, 30, 45);
             Console.WriteLine("-----------------------Float Maximum check-----------------------");
             float checkMax = Generic.CheckMaximumFloat(2.3f,4.5f,9.8f);
+            Console.WriteLine("-----------------------String Maximum check-----------------------");
+            string stringCheck = Generic.CheckMaximumString("Apple", "Banana", "Flower");
         }
     }
 }
